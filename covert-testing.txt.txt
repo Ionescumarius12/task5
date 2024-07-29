@@ -1,0 +1,20 @@
+run main.go compress ./mat.in ./mat.in.x 100 cached             
+compress completed successfully in 79.8007ms.
+PS C:\Users\Ionescu\Desktop\task5> go run main.go compress mat.in mat.in.x 100 non-cached
+>>
+compress completed successfully in 62.1683ms.
+PS C:\Users\Ionescu\Desktop\task5>
+
+
+
+
+
+
+
+PS C:\Users\Ionescu\Desktop\task5> go run main.go compress ./mat.in ./mat.in.x 1000 cached
+>> 
+compress completed successfully in 80.6619ms.
+PS C:\Users\Ionescu\Desktop\task5> go run main.go compress mat.in mat.in.x 1000 non-cached
+>> 
+compress completed successfully in 59.7135ms.
+PS C:\Users\Ionescu\Desktop\task5>
